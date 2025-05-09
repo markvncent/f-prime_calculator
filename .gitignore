@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.spec
+
+# Allow these files
+!build/gui.py
+!build/integration.py
+!build/icon.ico
+!build/assets/
+!build/dist/
+!build/dist/FPrime_Calculator/
+!build/dist/FPrime_Calculator/*
+
+# Ignore everything
+*
+
+# But not these files...
+!FPrime_Calculator.exe
+!lib/
+!lib/** 
